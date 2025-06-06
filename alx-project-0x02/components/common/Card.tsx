@@ -1,5 +1,5 @@
 // components/common/Card.tsx
-import { CardProps } from "@/interfaces";
+import { type CardProps } from "@/interfaces";
 
 export default function Card({ title, content }: CardProps) {
   return (
