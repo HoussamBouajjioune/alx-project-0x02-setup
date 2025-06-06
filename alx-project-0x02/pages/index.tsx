@@ -1,5 +1,6 @@
 // pages/index.tsx
 import Header from "@/components/layout/Header";
+import "./globals.css";
 
 export default function Home() {
   return (
