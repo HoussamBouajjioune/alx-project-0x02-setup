@@ -12,3 +12,12 @@ export interface ButtonProps {
   shape?: "rounded-sm" | "rounded-md" | "rounded-full";
   onClick?: () => void;
 }
+
+// interfaces/index.ts
+
+export interface PostProps {
+  userId: number;
+  id?: number;      // optional, as posts have IDs but it's not mandatory for display
+  title: string;
+  body: string;     // post content
+}
