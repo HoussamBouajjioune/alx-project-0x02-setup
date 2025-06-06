@@ -2,11 +2,17 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-blue-600 text-white p-4">
-      <nav className="flex justify-center space-x-6">
-        <Link href="/" className="hover:underline">Home</Link>
-        <Link href="/home" className="hover:underline">/home</Link>
-        <Link href="/about" className="hover:underline">/about</Link>
+    <header className="bg-gray-900 text-white p-4">
+      <nav className="flex gap-6">
+        <Link href="/home" className="hover:text-blue-400 transition">
+          Home
+        </Link>
+        <Link href="/about" className="hover:text-blue-400 transition">
+          About
+        </Link>
+        <Link href="/posts" className="hover:text-blue-400 transition">
+          Posts
+        </Link>
       </nav>
     </header>
   );
