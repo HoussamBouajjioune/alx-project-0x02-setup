@@ -13,6 +13,9 @@ export default function Header() {
         <Link href="/posts" className="hover:text-blue-400 transition">
           Posts
         </Link>
+        <Link href="/users" className="hover:text-blue-400 transition">
+          Users
+        </Link>
       </nav>
     </header>
   );
